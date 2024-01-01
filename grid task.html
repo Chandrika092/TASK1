@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Task</title>
+<style>
+    #Container{
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+        gap : 25px;
+
+    }
+
+    #item1{
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+    #item2{
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+    #item3{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+</style>
+</head>
+<body>
+    <div id="Container" align="justify">
+    <div style="background-color: blueviolet"; class="items" ><h1>1</h1></div>
+    <div style="background-color: beige"; class="items"><h1>2</h1></div>
+    <div style="background-color: bisque"; class="items"><h1>3</h1></div>
+    <div style="background-color: blanchedalmond"; class="items" id="item1"><h1>4</h1></div>
+    <div style="background-color: blue"; class="items"  id="item2"><h1>5</h1></div>
+    <div style="background-color: red"; class="items"><h1>6</h1></div>
+    <div style="background-color: aqua"; class="items"><h1>7</h1></div>
+    <div style="background-color:  chartreuse"; class="items" id="item3"><h1>8</h1></div>
+    <div style="background-color: antiquewhite"; class="items"><h1>9</h1></div>
+  
+</div>
+    
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+<style>
+    #Container{
+
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+        grid-gap: 15px;
+
+     }
+    #items{
+        grid-column-start: 1;
+        grid-column-end: 5;
+
+    }
+
+</style>
+</head>
+
+<body>
+    <div id="Container">
+    <div style="background-color: blueviolet"; class="items" id="item1"><h1>Item1</h1></div>
+    <div style="background-color: bisque"; class="items"><h1>Item2</h1></div>
+    <div style="background-color:  beige"; class="items"><h1>Item3</h1></div>
+    <div style="background-color: violet"; class="items"><h1>Item4</h1></div>
+    <div style="background-color: brown"; class="items"><h1>Item5</h1></div>
+    <div style="background-color: burlywood"; class="items"><h1>Item6</h1></div>
+    <div style="background-color: blue"; class="items"><h1>Item7</h1></div>
+
+    </div>
+    
+</body>
+</html>
